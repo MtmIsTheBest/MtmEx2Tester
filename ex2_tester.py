@@ -73,7 +73,7 @@ def check_test_results(input_file):
 
 def print_status(has_failed):
     print(f'{test_name}: '
-          f'{colored("passed", "green") if not has_curr_failed else colored("failed", "red")}')
+          f'{colored("passed", "green") if not has_curr_failed else colored("failed", "red")}') # should this be without not?
 
 
 def run_part_a(test_file):
